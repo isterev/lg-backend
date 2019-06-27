@@ -10,21 +10,18 @@ const LunchSchema  = new mongoose.Schema({
         required: true
     },
     date: {
-        type: Date,
-        required: true
-    },
-    begintime: {
         type: String,
         required: true
     },
-    endtime: {
+    members: {
         type: String,
         required: true
     },
-/*    members: {
-        type: Number,
+    details: {
+        type: String,
         required: true
-    },*/
+    },
+
     description: {
         type: String,
         required: true
