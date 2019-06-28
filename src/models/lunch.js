@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-// Define the movie schema
+// Define the lunch schema
 
 const LunchSchema  = new mongoose.Schema({
     place: {
@@ -30,5 +30,5 @@ const LunchSchema  = new mongoose.Schema({
 LunchSchema.set('versionKey', false);
 LunchSchema.set('timestamps', true);
 
-// Export the Movie model
-module.exports = mongoose.model('LunchGroup', LunchSchema);
+// Export the lunch model
+module.exports = mongoose.model('Lunch', LunchSchema);
